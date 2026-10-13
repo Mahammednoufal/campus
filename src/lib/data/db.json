@@ -1,0 +1,356 @@
+{
+  "institution": {
+    "id": "inst-001",
+    "name": "Apex University of Engineering & Technology",
+    "code": "APEX-U",
+    "address": "Main Academic Campus, Knowledge City",
+    "is_active": true,
+    "settings": {},
+    "created_at": "2026-07-15T08:03:20.106Z",
+    "updated_at": "2026-10-13T08:03:20.107Z"
+  },
+  "locations": [
+    {
+      "id": "loc-bld-1",
+      "institution_id": "inst-001",
+      "parent_id": null,
+      "name": "Science & Engineering Block",
+      "type": "building",
+      "description": "Main Academic Building with Labs",
+      "public_id": "seb-main",
+      "is_active": true,
+      "qr_enabled": true,
+      "created_at": "2026-08-14T08:03:20.107Z",
+      "updated_at": "2026-10-13T08:03:20.107Z"
+    },
+    {
+      "id": "loc-flr-1",
+      "institution_id": "inst-001",
+      "parent_id": "loc-bld-1",
+      "name": "Ground Floor",
+      "type": "floor",
+      "description": "Engineering Block Level 0",
+      "public_id": "seb-flr-0",
+      "is_active": true,
+      "qr_enabled": true,
+      "created_at": "2026-08-14T08:03:20.107Z",
+      "updated_at": "2026-10-13T08:03:20.107Z"
+    },
+    {
+      "id": "loc-room-101",
+      "institution_id": "inst-001",
+      "parent_id": "loc-flr-1",
+      "name": "Room 101 — Lecture Hall A",
+      "type": "room",
+      "description": "Capacity 120 seats, Audio-Visual enabled",
+      "public_id": "seb-room-101",
+      "is_active": true,
+      "qr_enabled": true,
+      "created_at": "2026-08-14T08:03:20.107Z",
+      "updated_at": "2026-10-13T08:03:20.107Z"
+    },
+    {
+      "id": "loc-room-102",
+      "institution_id": "inst-001",
+      "parent_id": "loc-flr-1",
+      "name": "Room 102 — Advanced Computing Lab",
+      "type": "room",
+      "description": "60 Workstations, Central AC",
+      "public_id": "seb-room-102",
+      "is_active": true,
+      "qr_enabled": true,
+      "created_at": "2026-08-14T08:03:20.107Z",
+      "updated_at": "2026-10-13T08:03:20.107Z"
+    },
+    {
+      "id": "loc-room-wash-g",
+      "institution_id": "inst-001",
+      "parent_id": "loc-flr-1",
+      "name": "Ground Floor Restroom (West Wing)",
+      "type": "room",
+      "description": "Male & Female washroom facilities",
+      "public_id": "seb-wash-0w",
+      "is_active": true,
+      "qr_enabled": true,
+      "created_at": "2026-08-14T08:03:20.107Z",
+      "updated_at": "2026-10-13T08:03:20.107Z"
+    },
+    {
+      "id": "loc-flr-2",
+      "institution_id": "inst-001",
+      "parent_id": "loc-bld-1",
+      "name": "Second Floor",
+      "type": "floor",
+      "description": "Engineering Block Level 2",
+      "public_id": "seb-flr-2",
+      "is_active": true,
+      "qr_enabled": true,
+      "created_at": "2026-08-14T08:03:20.107Z",
+      "updated_at": "2026-10-13T08:03:20.107Z"
+    },
+    {
+      "id": "loc-room-204",
+      "institution_id": "inst-001",
+      "parent_id": "loc-flr-2",
+      "name": "Room 204 — Seminar Hall",
+      "type": "room",
+      "description": "Seminar hall with acoustic treatment",
+      "public_id": "seb-room-204",
+      "is_active": true,
+      "qr_enabled": true,
+      "created_at": "2026-08-14T08:03:20.107Z",
+      "updated_at": "2026-10-13T08:03:20.107Z"
+    },
+    {
+      "id": "loc-bld-lib",
+      "institution_id": "inst-001",
+      "parent_id": null,
+      "name": "Central Library",
+      "type": "building",
+      "description": "Three-tier repository and study halls",
+      "public_id": "lib-main",
+      "is_active": true,
+      "qr_enabled": true,
+      "created_at": "2026-08-14T08:03:20.107Z",
+      "updated_at": "2026-10-13T08:03:20.107Z"
+    },
+    {
+      "id": "loc-room-lib-read",
+      "institution_id": "inst-001",
+      "parent_id": "loc-bld-lib",
+      "name": "Silent Reading Hall 1",
+      "type": "room",
+      "description": "Quiet study zone, first level",
+      "public_id": "lib-hall-1",
+      "is_active": true,
+      "qr_enabled": true,
+      "created_at": "2026-08-14T08:03:20.107Z",
+      "updated_at": "2026-10-13T08:03:20.107Z"
+    }
+  ],
+  "assets": [
+    {
+      "id": "ast-001",
+      "institution_id": "inst-001",
+      "location_id": "loc-room-101",
+      "name": "Ceiling Fan #2",
+      "type": "fan",
+      "identifier": "FAN-101-02",
+      "public_id": "ast-fan-101-2",
+      "is_active": true,
+      "installed_at": "2023-01-15T00:00:00Z",
+      "created_at": "2026-08-24T08:03:20.107Z",
+      "updated_at": "2026-10-13T08:03:20.107Z"
+    },
+    {
+      "id": "ast-002",
+      "institution_id": "inst-001",
+      "location_id": "loc-room-101",
+      "name": "Ceiling Projector",
+      "type": "projector",
+      "identifier": "PROJ-101-HD",
+      "public_id": "ast-proj-101",
+      "is_active": true,
+      "installed_at": "2023-06-10T00:00:00Z",
+      "created_at": "2026-08-24T08:03:20.107Z",
+      "updated_at": "2026-10-13T08:03:20.107Z"
+    },
+    {
+      "id": "ast-003",
+      "institution_id": "inst-001",
+      "location_id": "loc-room-102",
+      "name": "Workstation AC Unit (Carrier 2.5T)",
+      "type": "ac",
+      "identifier": "AC-102-CARRIER",
+      "public_id": "ast-ac-102",
+      "is_active": true,
+      "installed_at": "2022-08-20T00:00:00Z",
+      "created_at": "2026-08-24T08:03:20.107Z",
+      "updated_at": "2026-10-13T08:03:20.108Z"
+    },
+    {
+      "id": "ast-004",
+      "institution_id": "inst-001",
+      "location_id": "loc-room-204",
+      "name": "Ceiling Fan North",
+      "type": "fan",
+      "identifier": "FAN-204-N",
+      "public_id": "ast-fan-204-n",
+      "is_active": true,
+      "installed_at": "2021-04-12T00:00:00Z",
+      "created_at": "2026-08-24T08:03:20.108Z",
+      "updated_at": "2026-10-13T08:03:20.108Z"
+    },
+    {
+      "id": "ast-005",
+      "institution_id": "inst-001",
+      "location_id": "loc-room-wash-g",
+      "name": "Main Wash Basin Tap #1",
+      "type": "tap",
+      "identifier": "TAP-WASH-G1",
+      "public_id": "ast-tap-wg-1",
+      "is_active": true,
+      "installed_at": "2023-03-01T00:00:00Z",
+      "created_at": "2026-08-24T08:03:20.108Z",
+      "updated_at": "2026-10-13T08:03:20.108Z"
+    }
+  ],
+  "teams": [
+    {
+      "id": "team-elec",
+      "institution_id": "inst-001",
+      "name": "Electrical Maintenance Squad",
+      "specialty": "electrical",
+      "is_active": true,
+      "created_at": "2026-08-14T08:03:20.108Z",
+      "updated_at": "2026-10-13T08:03:20.108Z"
+    },
+    {
+      "id": "team-plumb",
+      "institution_id": "inst-001",
+      "name": "Campus Plumbing Unit",
+      "specialty": "plumbing",
+      "is_active": true,
+      "created_at": "2026-08-14T08:03:20.108Z",
+      "updated_at": "2026-10-13T08:03:20.108Z"
+    },
+    {
+      "id": "team-it",
+      "institution_id": "inst-001",
+      "name": "Academic IT & Hardware Support",
+      "specialty": "it_support",
+      "is_active": true,
+      "created_at": "2026-08-14T08:03:20.108Z",
+      "updated_at": "2026-10-13T08:03:20.108Z"
+    },
+    {
+      "id": "team-furn",
+      "institution_id": "inst-001",
+      "name": "Carpentry & Furniture Workshop",
+      "specialty": "furniture_carpentry",
+      "is_active": true,
+      "created_at": "2026-08-14T08:03:20.108Z",
+      "updated_at": "2026-10-13T08:03:20.108Z"
+    },
+    {
+      "id": "team-clean",
+      "institution_id": "inst-001",
+      "name": "Sanitation & Housekeeping Services",
+      "specialty": "housekeeping",
+      "is_active": true,
+      "created_at": "2026-08-14T08:03:20.108Z",
+      "updated_at": "2026-10-13T08:03:20.108Z"
+    },
+    {
+      "id": "team-gen",
+      "institution_id": "inst-001",
+      "name": "Civil & General Maintenance",
+      "specialty": "general_maintenance",
+      "is_active": true,
+      "created_at": "2026-08-14T08:03:20.108Z",
+      "updated_at": "2026-10-13T08:03:20.108Z"
+    }
+  ],
+  "staff": [
+    {
+      "id": "stf-01",
+      "institution_id": "inst-001",
+      "team_id": "team-elec",
+      "name": "Rajesh Kumar",
+      "phone": "+91 98450 12345",
+      "specialty": "electrical",
+      "is_active": true,
+      "created_at": "2026-08-14T08:03:20.108Z",
+      "updated_at": "2026-10-13T08:03:20.108Z"
+    },
+    {
+      "id": "stf-02",
+      "institution_id": "inst-001",
+      "team_id": "team-elec",
+      "name": "Arun Verma",
+      "phone": "+91 98450 67890",
+      "specialty": "electrical",
+      "is_active": true,
+      "created_at": "2026-08-14T08:03:20.108Z",
+      "updated_at": "2026-10-13T08:03:20.108Z"
+    },
+    {
+      "id": "stf-03",
+      "institution_id": "inst-001",
+      "team_id": "team-plumb",
+      "name": "Suresh Patil",
+      "phone": "+91 98230 44556",
+      "specialty": "plumbing",
+      "is_active": true,
+      "created_at": "2026-08-14T08:03:20.108Z",
+      "updated_at": "2026-10-13T08:03:20.108Z"
+    },
+    {
+      "id": "stf-04",
+      "institution_id": "inst-001",
+      "team_id": "team-it",
+      "name": "Deepak Sharma",
+      "phone": "+91 97110 88990",
+      "specialty": "it_support",
+      "is_active": true,
+      "created_at": "2026-08-14T08:03:20.108Z",
+      "updated_at": "2026-10-13T08:03:20.108Z"
+    },
+    {
+      "id": "stf-05",
+      "institution_id": "inst-001",
+      "team_id": "team-clean",
+      "name": "Manoj Yadav",
+      "phone": "+91 96540 22331",
+      "specialty": "housekeeping",
+      "is_active": true,
+      "created_at": "2026-08-14T08:03:20.108Z",
+      "updated_at": "2026-10-13T08:03:20.108Z"
+    }
+  ],
+  "slaPolicies": [
+    {
+      "id": "sla-crit",
+      "institution_id": "inst-001",
+      "priority": "critical",
+      "response_time_minutes": 30,
+      "resolution_time_minutes": 240,
+      "is_active": true,
+      "created_at": "2026-08-14T08:03:20.108Z",
+      "updated_at": "2026-10-13T08:03:20.108Z"
+    },
+    {
+      "id": "sla-high",
+      "institution_id": "inst-001",
+      "priority": "high",
+      "response_time_minutes": 60,
+      "resolution_time_minutes": 720,
+      "is_active": true,
+      "created_at": "2026-08-14T08:03:20.108Z",
+      "updated_at": "2026-10-13T08:03:20.108Z"
+    },
+    {
+      "id": "sla-norm",
+      "institution_id": "inst-001",
+      "priority": "normal",
+      "response_time_minutes": 120,
+      "resolution_time_minutes": 1440,
+      "is_active": true,
+      "created_at": "2026-08-14T08:03:20.108Z",
+      "updated_at": "2026-10-13T08:03:20.108Z"
+    },
+    {
+      "id": "sla-low",
+      "institution_id": "inst-001",
+      "priority": "low",
+      "response_time_minutes": 240,
+      "resolution_time_minutes": 2880,
+      "is_active": true,
+      "created_at": "2026-08-14T08:03:20.108Z",
+      "updated_at": "2026-10-13T08:03:20.108Z"
+    }
+  ],
+  "complaints": [],
+  "notifications": [],
+  "nextTicketNumber": 1001
+}
