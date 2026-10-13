@@ -136,7 +136,7 @@ export default function HomePage() {
             }}
           >
             Campus Maintenance Complaints,{" "}
-            <span style={{ color: "#38bdf8" }}>Solved in 24 Hours</span>
+            <span style={{ color: "#38bdf8" }}>Tracked to Resolution</span>
           </h1>
 
           <p
