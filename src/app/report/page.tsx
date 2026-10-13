@@ -815,7 +815,7 @@ function ReportComplaintForm() {
             >
               {submitting ? (
                 <>
-                  <span className="spinner" /> Saving & Disagreeing...
+                  <span className="spinner" /> Submitting complaint...
                 </>
               ) : (
                 <>
